@@ -21,9 +21,11 @@ hash_array = name_hash.to_a
   i = 0
 
 while i < hash_array.length do
-    puts hash_array[i][1]
+  if hash_array[i][1] == min_value[0]
+    puts hash_array[i][0]
+  end
     i += 1
 end
 end
-# if hash_array[i][1].include?(min_value[0])
-#   puts hash_array[i][0]
+
+
