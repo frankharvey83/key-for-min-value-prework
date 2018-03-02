@@ -21,8 +21,9 @@ hash_array = name_hash.to_a
 
 while i < hash_array.length do
   if hash_array[i][1] == min_value[0]
-    hash_array[i][0]
+    min_key = hash_array[i][0]
   end
     i += 1
 end
+    puts min_key
 end
