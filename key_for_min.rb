@@ -9,18 +9,20 @@
 # ```
 
 def key_for_min_value(name_hash)
-min_value_key = ""
 values = []
-i = 0
+hash_array = name_hash.to_a
+
 
   name_hash.each do |k, v|
   values.push(v)
   end
 
   min_value = values.sort
-
-# while i <
-# if name_hash.has_value?(min_value[0])
-name_hash.to_a
+  i = 0
+  
+# while i < hash_array.length do
+# if hash_array[i][1].include?(min_value[0])
+#   puts hash_array[i][0]
+puts min_value[0]
 end
-
+end
