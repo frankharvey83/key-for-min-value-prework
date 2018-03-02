@@ -4,9 +4,9 @@
 # # => :chair
 #
 # name_hash = {"apple" => -45, "banana" => -44.5, "carrot" => -44.9}
-# key_for_min_value(veggies)
-# # => "apple"
-# ```
+# # key_for_min_value(veggies)
+# # # => "apple"
+# # ```
 
 def key_for_min_value(name_hash)
 values = []
@@ -27,5 +27,3 @@ while i < hash_array.length do
     i += 1
 end
 end
-
-
