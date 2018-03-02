@@ -23,4 +23,3 @@ min_value = 0
 
 values
 end
-
