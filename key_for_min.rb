@@ -25,5 +25,5 @@ while i < hash_array.length do
   end
     i += 1
 end
-    puts min_key
+    min_key
 end
