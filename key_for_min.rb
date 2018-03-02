@@ -11,13 +11,13 @@
 def key_for_min_value(name_hash)
 min_value_key = ""
 values = []
-min_value = values.sort
+
 
   name_hash.each do |k, v|
   values.push(v)
   end
 
 
-
+min_value = values.sort
 min_value
 end
