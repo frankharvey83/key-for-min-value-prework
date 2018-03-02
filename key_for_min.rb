@@ -21,7 +21,6 @@ i = 0
 
 # while i <
 # if name_hash.has_value?(min_value[0])
-
-end
 name_hash.to_a
 end
+
