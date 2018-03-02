@@ -26,3 +26,5 @@ i = 3
       min_value_key << values[0]
     i += 2
 end
+min_value_key
+end
