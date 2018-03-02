@@ -11,14 +11,11 @@
 def key_for_min_value(name_hash)
 min_value_key = ""
 values = []
-keys = []
 i = 0
 
   name_hash.each do |k, v|
-  values.push(v)
-  values.push(k)
+  values.push(k,v)
   end
 
-  while i < values.length
 
 end
