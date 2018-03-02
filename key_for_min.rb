@@ -20,8 +20,10 @@ hash_array = name_hash.to_a
   min_value = values.sort
   i = 0
 
-# while i < hash_array.length do
+while i < hash_array.length do
+    puts hash_array[i][1]
+    i += 1
+end
+end
 # if hash_array[i][1].include?(min_value[0])
 #   puts hash_array[i][0]
-puts hash_array[0][1]
-end
