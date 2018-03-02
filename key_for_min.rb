@@ -26,4 +26,5 @@ while i < hash_array.length do
   end
     i += 1
 end
+    min_key
 end
