@@ -19,12 +19,14 @@ i = 3
   # could maybe use name_hash.to_a
   end
 
-  while i < values.length
+  while i < values.length do
     if values[i] < min_value
       min_value_key << values[i - 1]
     else
       min_value_key << values[0]
     i += 2
 end
+
 min_value_key
+end
 end
