@@ -11,7 +11,6 @@
 def key_for_min_value(name_hash)
 values = []
 hash_array = name_hash.to_a
-min_key = ""
 
   name_hash.each do |k, v|
   values.push(v)
@@ -22,9 +21,8 @@ min_key = ""
 
 while i < hash_array.length do
   if hash_array[i][1] == min_value[0]
-    min_key << hash_array[i][0]
+    hash_array[i][0]
   end
     i += 1
 end
-    min_key
 end
