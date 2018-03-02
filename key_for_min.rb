@@ -11,11 +11,18 @@
 def key_for_min_value(name_hash)
 min_value_key = ""
 values = []
-i = 0
+min_value = values[1]
+i = 3
 
   name_hash.each do |k, v|
   values.push(k,v)
+  # could maybe use name_hash.to_a
   end
 
-values
+  while i < values.length
+    if values[i] < min_value
+      min_value_key << values[i - 1]
+    else
+      min_value_key << values[0]
+    i += 2
 end
