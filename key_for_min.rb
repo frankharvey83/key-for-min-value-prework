@@ -15,7 +15,7 @@ keys = []
 
   name_hash.each do |k, v|
   values.push(k,v)
-  
+
   end
-  puts values
+  values
 end
