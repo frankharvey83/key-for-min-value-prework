@@ -23,5 +23,5 @@ hash_array = name_hash.to_a
 # while i < hash_array.length do
 # if hash_array[i][1].include?(min_value[0])
 #   puts hash_array[i][0]
-puts min_value[0]
+puts hash_array[0][1]
 end
