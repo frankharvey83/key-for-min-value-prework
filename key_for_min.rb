@@ -18,8 +18,7 @@ min_value = 0
   # could maybe use name_hash.to_a
   end
 
-  values.sort 
-  end
+  
 
-values
+values.sort
 end
