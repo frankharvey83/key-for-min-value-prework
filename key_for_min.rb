@@ -14,9 +14,8 @@ values = []
 keys = []
 
   name_hash.each do |k, v|
-  values.push(v)
-  keys.push(k)
+  values.push(k,v)
+  
   end
   puts values
-  puts keys
 end
